@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: decimal-leading-zero;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: skyblue; */
+    padding: 50px;
+}
+
+.new-todo-text {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.new-todo-x {
+    color: red;
+    cursor: pointer;
+}
+
+.done {
+    text-decoration: line-through;
+}
